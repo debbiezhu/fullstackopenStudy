@@ -82,4 +82,20 @@ return (<> </>)
 
 ## do not render objects
 
+    对象不是一个合法的 React 孩子
+
+在 React 中, 花括号包裹的, 应该是原始类型的值.
+
+然而, 可被渲染的元素组成的 array 是可以的.
+
+```javascript
+const App = () = {
+    const friends = { 'debbie', 'thea' }
+    return (
+        <div>
+            <p>{friends}</p>
+        </div>
+    )
+}
+
 ## exercises 1.1.-1.2.
