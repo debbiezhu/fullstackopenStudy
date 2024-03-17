@@ -46,6 +46,8 @@ const App = ...
 
 而且, 示例中的函数, 函数体内仅有一个 `return` statement, 则, 连 `return` 都被省略掉了.
 
+`export default App` 要紧, 不能被忽略.
+
 ## jsx
 
 ## multiple components

@@ -1,8 +1,14 @@
 const App = () => {
-  console.log('hello from component')
+  const now = new Date()
+  const a = 10
+  const b = 20
+  console.log(now, a + b)
   return (
     <div>
-      <p>hello world</p>
+      <p>hello world, it is {now.toString()}</p>
+      <p>
+        {a} plus {b} is {a + b}
+      </p>
     </div>
   )
 }
