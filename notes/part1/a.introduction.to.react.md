@@ -62,6 +62,8 @@ const App = ...
 
 ## props: passing data to components
 
+因为是 template system, 所以, 传参, 是很常见的. 默认的, 入参是 `props`, aka, properties.
+
 ## possible error message
 
 ## some notes
