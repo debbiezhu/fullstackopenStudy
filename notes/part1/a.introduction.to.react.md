@@ -50,6 +50,10 @@ const App = ...
 
 ## jsx
 
+虽然长得像 javascript, 但是 `JSX` 的内容却不是 javascript. 它会被 Babel 编译成真正的 javascript.
+
+`JSX` 因为有一个 `X` 在里面, 意味着 `XML`. 所以, 所有的块, 都要用闭合标签包裹起来. 意味着, 在 `HTML` 可行的 `<br>`, 在 `JSX` 里就不行, 需要用正规的 `<br />` 收尾.
+
 ## multiple components
 
 ## props: passing data to components
