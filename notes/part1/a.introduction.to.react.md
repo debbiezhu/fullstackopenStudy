@@ -66,7 +66,19 @@ const App = ...
 
 ## possible error message
 
+看什么, 我又没有遇上这个错误.
+
 ## some notes
+
+- console 总是开的
+- 一点儿一点儿改的
+- Component 的首字母是大写的
+- return 内容是需要被包起来的
+
+```javascript
+return []
+return (<> </>)
+```
 
 ## do not render objects
 
