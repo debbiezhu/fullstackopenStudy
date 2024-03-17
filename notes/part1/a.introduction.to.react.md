@@ -56,6 +56,10 @@ const App = ...
 
 ## multiple components
 
+一个 Component 里面, 含有多个其他 Component, 很正常. 而且, 也是 React 倡导的.
+
+并且, 通常情况下, `App` 就是根 Component.
+
 ## props: passing data to components
 
 ## possible error message
