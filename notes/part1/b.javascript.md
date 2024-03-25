@@ -73,4 +73,10 @@ const square = q => q * q
 
 ## object methods and 'this'
 
+React 不需要为 object 定义 method. 记得哦.
+
+`this` 到底指的是谁, 要看是谁在使用当前函数. 所以, `this` 不一定是指 object.
+
+## classes
+
 ## javascription materials
